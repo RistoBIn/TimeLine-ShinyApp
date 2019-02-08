@@ -4,8 +4,8 @@ library(tidyverse)
 library(lubridate)
 
 # You may set full path of RDS as like following example
-termine  <- readRDS('C:/users/leus/Documents/my_work/timeline/termine.RDS')
-#termine  <- readRDS('termine.RDS')
+# termine  <- readRDS('C:/users/Risto/Documents/shiny_work/timeline/termine.RDS')
+termine  <- readRDS('termine.RDS')
 
 shinyUI(fluidPage(
   titlePanel("Timeline"),
